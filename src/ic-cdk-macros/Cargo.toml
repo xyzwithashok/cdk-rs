@@ -28,4 +28,4 @@ version = "0.6.12"
 features = ["cdk"]
 git = "https://github.com/dfinity/candid.git"
 branch = "blob-opt"
-rev = "0101cc985c72d4f676d58fa9e01bc89b8c2ff970"
+rev = "75eada49f31773aa87b067a52ba1fa5e99dd09d4"
