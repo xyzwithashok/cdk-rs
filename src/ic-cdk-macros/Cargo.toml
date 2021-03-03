@@ -16,10 +16,16 @@ include = ["src", "Cargo.toml", "LICENSE", "README.md"]
 proc-macro = true
 
 [dependencies]
-candid = { version = "0.6.12", features = ["cdk"] }
 ic-cdk = { path = "../ic-cdk", version = "0.2" }
 syn = { version = "1.0.58", features = ["fold", "full"] }
 quote = "1.0"
 proc-macro2 = "1.0"
 serde_tokenstream = "0.1.0"
 serde = "1.0.111"
+
+[dependencies.candid]
+version = "0.6.12"
+features = ["cdk"]
+git = "https://github.com/dfinity/candid.git"
+branch = "blob-opt"
+rev = "0101cc985c72d4f676d58fa9e01bc89b8c2ff970"

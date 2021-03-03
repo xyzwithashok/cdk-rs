@@ -13,11 +13,18 @@ keywords = ["internet-computer", "types", "dfinity", "canister", "cdk"]
 include = ["src", "Cargo.toml", "LICENSE", "README.md"]
 
 [dependencies]
-candid = { version = "0.6.12", features = ["cdk"] }
 cfg-if = "0.1.10"
 ic-types = "0.1.1"
 serde = "1.0.110"
 wee_alloc = { version = "0.4.5" }
+
+[dependencies.candid]
+version = "0.6.12"
+features = ["cdk"]
+git = "https://github.com/dfinity/candid.git"
+branch = "blob-opt"
+rev = "0101cc985c72d4f676d58fa9e01bc89b8c2ff970"
+
 
 [features]
 experimental = []
