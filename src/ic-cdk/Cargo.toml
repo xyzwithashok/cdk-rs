@@ -19,11 +19,10 @@ serde = "1.0.110"
 wee_alloc = { version = "0.4.5" }
 
 [dependencies.candid]
-version = "0.6.12"
+version = "0.6.16"
 features = ["cdk"]
 git = "https://github.com/dfinity/candid.git"
 branch = "blob-opt"
-rev = "75eada49f31773aa87b067a52ba1fa5e99dd09d4"
 
 
 [features]

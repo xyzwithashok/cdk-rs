@@ -24,8 +24,7 @@ serde_tokenstream = "0.1.0"
 serde = "1.0.111"
 
 [dependencies.candid]
-version = "0.6.12"
+version = "0.6.16"
 features = ["cdk"]
 git = "https://github.com/dfinity/candid.git"
 branch = "blob-opt"
-rev = "75eada49f31773aa87b067a52ba1fa5e99dd09d4"
