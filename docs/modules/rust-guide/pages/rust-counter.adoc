@@ -219,7 +219,7 @@ The next step is to write a Rust program that declares the `+COUNTER+` variable 
 ----
 include::example$counter-tutorial/counter.rs[]
 ----
-. Save your changes and close the `+counter.rs+` file to continue.
+. Save your changes and close the `+lib.rs+` file to continue.
 
 == Add an interface description file
 
